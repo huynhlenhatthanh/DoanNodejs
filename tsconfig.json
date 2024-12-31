@@ -5,13 +5,16 @@
     "../../tsconfig.paths.json"
   ],
   "include": [
-    "../../eslint/babel-eslint-parser/src/**/*.cts",
+    "../../packages/babel-helpers/src/**/*.ts",
     "../../lib/globals.d.ts",
     "../../scripts/repo-utils/*.d.ts"
   ],
   "references": [
     {
-      "path": "../../packages/babel-helper-plugin-utils"
+      "path": "../../packages/babel-template"
+    },
+    {
+      "path": "../../packages/babel-types"
     }
   ]
 }
